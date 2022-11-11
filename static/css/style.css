@@ -313,7 +313,7 @@ label{
 	cursor: pointer;
 }
 .sb-search-submit {
-	background: #e2dee0 url('../images/search.png') no-repeat 0 0;
+	background: #e2dee0 url('../static/images/search.png') no-repeat 0 0;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
     filter: alpha(opacity=0); /* IE 5-7 */
     color: transparent;
@@ -323,7 +323,7 @@ label{
 	-webkit-appearance: none;
 }
 .sb-icon-search {
-    background:#fff url('../images/search.png') no-repeat 0px 0px;
+    background:#fff url('../static/images/search.png') no-repeat 0px 0px;
 	z-index: 90;
 }
 /* Open state */
@@ -494,7 +494,7 @@ ul.callbacks_tabs.callbacks1_tabs {
   text-decoration: none;
   height: 61px;
   width: 38px;
-  background: transparent url("../images/themes.gif") no-repeat left top;
+  background: transparent url("../static/images/themes.gif") no-repeat left top;
   margin-top: -45px;
   }
 .callbacks_nav.next {
@@ -1484,7 +1484,7 @@ ul.categories li a:hover {
 .share_grid ul li a i {
     width: 35px;
     height: 35px;
-    background: url('../images/img-sprite.png') no-repeat 0px 0px;
+    background: url('../static/images/img-sprite.png') no-repeat 0px 0px;
     display: inline-block;
 	float:left;
 }
@@ -1814,7 +1814,7 @@ a.span_link1 {
   height: 40px;
   border: none;
   text-indent: 100%;
-  background: url("../images/to-top1.png") no-repeat 0px 0px;
+  background: url("../static/images/to-top1.png") no-repeat 0px 0px;
 }
 /*-- footer --*/
 .footer-top {
@@ -1940,7 +1940,7 @@ ul.location {
 .footer-social-icons ul li a{
 	width:30px;
 	height:30px;
-	background:url('../images/img-sprite.png') no-repeat 0px 0px;
+	background:url('../static/images/img-sprite.png') no-repeat 0px 0px;
 	display:inline-block;
 }
 .footer-social-icons ul li a.facebook {
@@ -2144,12 +2144,12 @@ span.msg a {
 }
 .nbs-flexisel-nav-left {
   	left: -7em;
-	background: url(../images/left.png) 0px 0px no-repeat;
+	background: url(../static/images/left.png) 0px 0px no-repeat;
   display:none;
 }
 .nbs-flexisel-nav-right {
 	right: -7em;
-	background: url(../images/right.png) 0px 0px no-repeat;
+	background: url(../static/images/right.png) 0px 0px no-repeat;
   display:none;
 }
 /*-- //sports --*/
