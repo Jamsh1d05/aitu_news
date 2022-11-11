@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Express News | Home</title>
+<title>Express News | Entertainment</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
@@ -79,9 +79,9 @@
 		
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					 <li class="active"><a href="index.html">Home</a></li>
+					 <li><a href="index.html">Home</a></li>
 						<li><a href="sports.html">Sports</a></li>
-				    <li class="dropdown">
+				    <li class="dropdown active">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Entertainment<b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li><a href="entertainment.html">Movies</a></li>
@@ -131,7 +131,6 @@
 						</ul>
 					</li>
 					<li><a href="technology.html">Technology</a></li>
-					<div class="clearfix"></div>
 				</ul>
 				<div class="search">
 					<!-- start search-->
@@ -183,24 +182,28 @@
 	<!-- content-section-starts-here -->
 	<div class="main-body">
 		<div class="wrap">
+		<ol class="breadcrumb">
+			  <li><a href="index.html">Home</a></li>
+			  <li class="active">Entertainment</li>
+			</ol>
 			<div class="col-md-8 content-left">
-				<div class="slider">
-					<div class="callbacks_wrap">
+			<div class="slider">
+					<div class="callbacks_container">
 						<ul class="rslides" id="slider">
 							<li>
-								<img src="images/3.jpg" alt="">
+								<img src="images/e1.jpg" alt="">
 								<div class="caption">
 									<a href="single.html">Lorem Ipsum is simply dummy text of the printing and typesetting industry</a>
 								</div>
 							</li>
 							<li>
-								<img src="images/2.jpg" alt="">
+								<img src="images/e2.jpg" alt="">
 								<div class="caption">
 									<a href="single.html">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</a>
 								</div>
 							</li>
 							<li>
-								<img src="images/1.jpg" alt="">
+								<img src="images/e3.jpg" alt="">
 								<div class="caption">
 									<a href="single.html">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</a>
 								</div>
@@ -208,13 +211,13 @@
 						</ul>
 					</div>
 				</div>
-				<div class="articles">
+			<div class="articles entertainment">
 					<header>
-						<h3 class="title-head">All around the world</h3>
+						<h3 class="title-head">Entertainment</h3>
 					</header>
 					<div class="article">
 						<div class="article-left">
-							<a href="single.html"><img src="images/article1.jpg"></a>
+							<a href="single.html"><img src="images/ent1.jpg"></a>
 						</div>
 						<div class="article-right">
 							<div class="article-title">
@@ -223,6 +226,23 @@
 							</div>
 							<div class="article-text">
 								<p>The standard chunk of Lorem Ipsum used since the 1500s. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" exact original.....</p>
+								<a href="single.html"><img src="images/more.png" alt="" /></a>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="article">
+						<div class="article-left">
+							<a href="single.html"><img src="images/ent2.jpg"></a>
+						</div>
+						<div class="article-right">
+							<div class="article-title">
+								<p>On Jun 21, 2015 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>181 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-thumbs-up"></span>89</a></p>
+								<a class="title" href="single.html">There are many variations that focuses on presenting</a>
+							</div>
+							<div class="article-text">
+								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.....</p>
 								<a href="single.html"><img src="images/more.png" alt="" /></a>
 								<div class="clearfix"></div>
 							</div>
@@ -248,24 +268,7 @@
 					</div>
 					<div class="article">
 						<div class="article-left">
-							<a href="single.html"><img src="images/article3.jpg"></a>
-						</div>
-						<div class="article-right">
-							<div class="article-title">
-								<p>On Jun 21, 2015 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>181 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-thumbs-up"></span>89</a></p>
-								<a class="title" href="single.html">There are many variations that focuses on presenting</a>
-							</div>
-							<div class="article-text">
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.....</p>
-								<a href="single.html"><img src="images/more.png" alt="" /></a>
-								<div class="clearfix"></div>
-							</div>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="article">
-						<div class="article-left">
-							<a href="single.html"><img src="images/article4.jpg"></a>
+							<a href="single.html"><img src="images/ent3.jpg"></a>
 						</div>
 						<div class="article-right">
 							<div class="article-title">
@@ -298,6 +301,7 @@
 						<div class="clearfix"></div>
 					</div>
 				</div>
+				
 				<div class="life-style">
 					<header>
 						<h3 class="title-head">Life Style</h3>
@@ -325,127 +329,57 @@
 						<div class="clearfix"></div>
 					</div>
 				</div>
-					<div class="sports-top">
-							<div class="s-grid-left">
-								<div class="cricket">
-									<header>
-										<h3 class="title-head">Business</h3>
-									</header>
-									<div class="c-sports-main">
-											<div class="c-image">
-												<a href="single.html"><img src="images/bus1.jpg" alt="" /></a>
-											</div>
-											<div class="c-text">
-												<h6>Lorem Ipsum</h6>
-												<a class="power" href="single.html">It is a long established fact that a reader</a>
-												<p class="date">On Feb 25, 2015</p>
-												<a class="reu" href="single.html"><img src="images/more.png" alt="" /></a>
-												<div class="clearfix"></div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-										<div class="s-grid-small">
-											<div class="sc-image">
-												<a href="single.html"><img src="images/bus2.jpg" alt="" /></a>
-											</div>
-										<div class="sc-text">
-											<h6>Lorem Ipsum</h6>
-											<a class="power" href="single.html">It is a long established fact that a reader</a>
-											<p class="date">On Mar 21, 2015</p>
-											<a class="reu" href="single.html"><img src="images/more.png" alt="" /></a>
-												<div class="clearfix"></div>
-										</div>
-										<div class="clearfix"></div>
-										</div>
-										<div class="s-grid-small">
-											<div class="sc-image">
-												<a href="single.html"><img src="images/bus3.jpg" alt="" /></a>
-											</div>
-										<div class="sc-text">
-											<h6>Lorem Ipsum</h6>
-											<a class="power" href="single.html">It is a long established fact that a reader</a>
-											<p class="date">On Jan 25, 2015</p>
-											<a class="reu" href="single.html"><img src="images/more.png" alt="" /></a>
-												<div class="clearfix"></div>
-										</div>
-										<div class="clearfix"></div>
-										</div>
-										<div class="s-grid-small">
-											<div class="sc-image">
-												<a href="single.html"><img src="images/bus4.jpg" alt="" /></a>
-											</div>
-										<div class="sc-text">
-											<h6>Lorem Ipsum</h6>
-											<a class="power" href="single.html">It is a long established fact that a reader</a>
-											<p class="date">On Jul 19, 2015</p>
-											<a class="reu" href="single.html"><img src="images/more.png" alt="" /></a>
-												<div class="clearfix"></div>
-										</div>
-										<div class="clearfix"></div>
-										</div>
-									</div>
-								</div>
-							<div class="s-grid-right">
-								<div class="cricket">
-									<header>
-										<h3 class="title-popular">Technology</h3>
-									</header>
-									<div class="c-sports-main">
-											<div class="c-image">
-												<a href="single.html"><img src="images/tec1.jpg" alt="" /></a>
-											</div>
-											<div class="c-text">
-												<h6>Lorem Ipsum</h6>
-												<a class="power" href="single.html">It is a long established fact that a reader</a>
-												<p class="date">On Apr 22, 2015</p>
-												<a class="reu" href="single.html"><img src="images/more.png" alt="" /></a>
-												<div class="clearfix"></div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-										<div class="s-grid-small">
-											<div class="sc-image">
-												<a href="single.html"><img src="images/tec2.jpg" alt="" /></a>
-											</div>
-										<div class="sc-text">
-											<h6>Lorem Ipsum</h6>
-											<a class="power" href="single.html">It is a long established fact that a reader</a>
-											<p class="date">On Jan 19, 2015</p>
-											<a class="reu" href="single.html"><img src="images/more.png" alt="" /></a>
-												<div class="clearfix"></div>
-										</div>
-										<div class="clearfix"></div>
-										</div>
-										<div class="s-grid-small">
-											<div class="sc-image">
-												<a href="single.html"><img src="images/tec3.jpg" alt="" /></a>
-											</div>
-										<div class="sc-text">
-											<h6>Lorem Ipsum</h6>
-											<a class="power" href="single.html">It is a long established fact that a reader</a>
-											<p class="date">On Jun 25, 2015</p>
-											<a class="reu" href="single.html"><img src="images/more.png" alt="" /></a>
-												<div class="clearfix"></div>
-										</div>
-										<div class="clearfix"></div>
-										</div>
-										<div class="s-grid-small">
-											<div class="sc-image">
-												<a href="single.html"><img src="images/tec4.jpg" alt="" /></a>
-											</div>
-										<div class="sc-text">
-											<h6>Lorem Ipsum</h6>
-											<a class="power" href="single.html">It is a long established fact that a reader</a>
-											<p class="date">On Jul 19, 2015</p>
-											<a class="reu" href="single.html"><img src="images/more.png" alt="" /></a>
-												<div class="clearfix"></div>
-										</div>
-										<div class="clearfix"></div>
-										</div>
-									</div>
-								</div>
-								<div class="clearfix"></div>
-							</div>
+					<div class="photos">
+					<header>
+						<h3 class="title-head">Photos</h3>
+					</header>
+					 <div class="course_demo1">
+								  <ul id="flexiselDemo">	
+									 <li>
+										<a href="single.html"><img src="images/eg4.jpg" alt="" /></a>							
+									 </li>
+									 <li>
+										<a href="single.html"><img src="images/eg3.jpg" alt="" /></a>
+									  </li>	
+									 <li>
+										<a href="single.html"><img src="images/eg2.jpg" alt="" /></a>
+									 </li>	
+									 <li>
+										<a href="single.html"><img src="images/eg1.jpg" alt="" /></a>
+									 </li>	
+								 </ul>
+							 </div>
+							 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+								<script type="text/javascript">
+							 $(window).load(function() {
+								$("#flexiselDemo").flexisel({
+									visibleItems: 4,
+									animationSpeed: 1000,
+									autoPlay: true,
+									autoPlaySpeed: 3000,    		
+									pauseOnHover: true,
+									enableResponsiveBreakpoints: true,
+									responsiveBreakpoints: { 
+										portrait: { 
+											changePoint:480,
+											visibleItems: 2
+										}, 
+										landscape: { 
+											changePoint:640,
+											visibleItems: 2
+										},
+										tablet: { 
+											changePoint:768,
+											visibleItems: 3
+										}
+									}
+								});
+								
+							 });
+							  </script>
+							 <script type="text/javascript" src="js/jquery.flexisel.js"></script>
+					</div>
+
 				</div>
 			<div class="col-md-4 side-bar">
 			<div class="first_half">
@@ -697,27 +631,7 @@
 						  </div>
 						</section>
 					 </div>
-					 <div class="side-bar-articles">
-						<div class="side-bar-article">
-							<a href="single.html"><img src="images/sai.jpg" alt="" /></a>
-							<div class="side-bar-article-title">
-								<a href="single.html">Contrary to popular belief, Lorem Ipsum is not simply random text</a>
-							</div>
-						</div>
-						<div class="side-bar-article">
-							<a href="single.html"><img src="images/sai2.jpg" alt="" /></a>
-							<div class="side-bar-article-title">
-								<a href="single.html">There are many variations of passages of Lorem</a>
-							</div>
-						</div>
-						<div class="side-bar-article">
-							<a href="single.html"><img src="images/sai3.jpg" alt="" /></a>
-							<div class="side-bar-article-title">
-								<a href="single.html">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</a>
-							</div>
-						</div>
-					 </div>
-					 </div>
+					  </div>
 					 <div class="secound_half">
 					 <div class="tags">
 						<header>
@@ -861,8 +775,8 @@
 		$(document).ready(function() {
 				/*
 				var defaults = {
-				wrapID: 'toTop', // fading element id
-				wrapHoverID: 'toTopHover', // fading element hover id
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
 				scrollSpeed: 1200,
 				easingType: 'linear' 
 				};
